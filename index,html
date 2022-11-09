@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http//www.w3.org/1999/xhtml" xlmns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="x-apple-disable-messaging-reformatting">
+    <title>Document</title>
+
+    <style>
+
+@font-face {
+  font-family: 'Vesper Libre';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/vesperlibre/v19/bx6dNxyWnf-uxPdXDHUD_RdA-2aZ1YML.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Vesper Libre';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/vesperlibre/v19/bx6dNxyWnf-uxPdXDHUD_RdAs2CZ1YML.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Vesper Libre';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/vesperlibre/v19/bx6dNxyWnf-uxPdXDHUD_RdAi2KZ1YML.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v14/92zatBhPNqw73oTd4g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v14/92zatBhPNqw73oTd4g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v14/92zatBhPNqw73oTd4g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v14/92zatBhPNqw73oTd4g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v14/92zatBhPNqw73oTd4g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v14/92zatBhPNqw73oTd4g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+    </style>
+
+    <!--[if mso]>
+
+    <noscript>
+
+        <xml>
+
+            <o:officedocumentsettings>
+
+                <pixelsperinch>96</pixelsperinch>
+
+            </o:officedocumentsettings>
+        </xml>
+    </noscript>
+
+    <![end if]-->
+</head>
+<body style="padding: 0px; margin:0px; word-spacing: normal; background-color: #ffffff">
+
+<div role="article" aria-roledescription="email" lang="en" style="padding: 0px; margin:0px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background-color: #ffffff">
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; background-color: #ffffff">
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px" align="center">
+
+<table role="presentation" style="padding: 0px 20px; margin:0px 20px; border:0px; border-spacing:0px; border-collapse:collapse; width:94%; max-width: 640px; background-color:#ffffff ;">
+
+    <tr>
+
+        <td style="padding: 20px 0px 0px 0px; margin:0px" align="center">
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; max-width: 640px">
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px" align="left">
+
+         <p style="padding: 0px; margin:0px; font-size:10px; line-height: 12px; font-family:Arial, Helvetica, sans-serif; color:#999999">
+
+            Embrace the season at Hotel June
+         
+        </p>
+
+        </td>
+
+    
+
+        <td style="padding: 0px; margin:0px" align="right">
+
+            
+         <p style="padding: 0px; margin:0px; font-size:10px; line-height: 12px; font-family:Arial, Helvetica, sans-serif;color:#999999">
+
+            View this email with images
+         
+        </p>
+
+        </td>
+
+    </tr>
+
+</table>
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px; line-height:10px; height: 10px;-mso-line-height-rule:exactly">
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px" align="center">
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; max-width:640px;">
+
+    <tr>
+
+        <td style="padding: 23px 0px 26px 0px; margin:0px" align="center">
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; max-width:591px;">
+      
+    <tr>
+        
+        <td style="padding: 0px 0px 0px 0px; margin:0px" align="center">
+
+            <p style="padding: 0px; margin:0px; font-size:14px; line-height: 16px; font-family:Arial, Helvetica, sans-serif;color:#000000">
+
+                <img src="https://egallery.cendyn.com/egallery/upload/proper_hotels/shared_company/logo/logo_NEW.png" alt="Hotel June logo" title="Hotel June logo" width="100px" style="padding: 0px; margin:0px; width:220px;max-width:100%; display:block; height:auto">
+            </p>
+
+        </td>
+
+    </tr>
+
+</table>
+
+        </td>
+
+    </tr>
+
+</table>
+
+        </td>
+        
+
+        <td style="padding: 23px 0px 26px 0px; margin:0px" align="center">
+
+            <p style="padding: 0px; margin:0px; font-size:14px; line-height: 16px; font-family:Arial, Helvetica, sans-serif;color:#000000">
+
+                <img src="https://egallery.cendyn.com/egallery/upload/proper_hotels/shared_company/logo/logo_NEW.png" alt="Hotel June logo" title="Hotel June logo" width="100px" style="padding: 0px; margin:0px; width:220px;max-width:100%; display:block; height:auto">
+            </p>
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px; background-color: #FFF7EA;" align="center">
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; max-width:640px;">
+
+    <tr>
+
+        <td style="padding: 20px 20px 20px 20px; margin:0px">
+
+            <table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; max-width:600px">
+
+                <tr>
+
+                    <td style="padding: 0px; margin:0px">
+
+            <!--[if (gte mso 9) | (IE)]><!-->
+            <p style="padding: 0px; margin:0px; font-size:14px; line-height: 16px; font-family:Arial, Helvetica, sans-serif;color:#000000; width:100%; max-width:600px">
+            <img src="https://crmforms.cendyn.com/ProperHotels/HotelJune/Marketing/2020/October/HJ_100520_Fall_Promo/images/ezgif-6-356e38e34775.gif" alt="Holiday GIF" title="Holiday GIF" style="padding: 0px; margin:0px; width:600px; max-width: 100%; display:block; height:470px">
+                </p>
+            <!--<![endif]-->
+
+            <!--[if (gte mso 9) | (IE)]>
+             <img src="" alt="">
+            <![end if]-->
+
+                    </td>
+
+                </tr>
+
+            </table>
+
+        </td>
+
+    </tr>
+
+</table>
+             
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100% ; max-width: 640px;  background-color:#fff7e9">
+
+    
+    <tr>
+
+        <td style="padding: 0px; margin:0px; background-color:#fff7e9">
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width: 100%; max-width: 640px">
+
+    <tr>
+
+        <td align="left" bgcolor="#fff7e9" background="https://crmforms.cendyn.com/ProperHotels/HotelJune/Marketing/2020/October/HJ_100520_Fall_Promo/images/bg_C.png" width="640px" height="555px" valign="top" style="background: url('https://crmforms.cendyn.com/ProperHotels/HotelJune/Marketing/2020/October/HJ_100520_Fall_Promo/images/bg_C.png'); background-position:  center; background-size: cover; background-repeat: no-repeat; background-color:#fff7e9;">
+
+                <!--[if (gte mso 9) | (IE)]>
+                <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block; width: 480pt; height: 300pt;" src="https://crmforms.cendyn.com/ProperHotels/HotelJune/Marketing/2020/October/HJ_100520_Fall_Promo/images/bg_C.png" />                <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block;position: absolute; width: 480pt; height:300pt;">
+                <v:fill  opacity="0%" color="#fff7e9”  />
+                <v:textbox inset="0,0,0,0">
+                <![end if]-->
+
+                <div>
+                <div >
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width: 100%; max-width: 640px">
+    
+    <tr>
+
+        <td style="padding: 45px 0px 0px 65px; margin:0px; width: 100%; " align="left">
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width: 100%; max-width: 470px">
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px;"  align="left">
+
+                    <p style="padding: 0px; margin:0px; font-size:45px; line-height:47px; font-family: 'Vesper Libre', Georgia, 'Times New Roman', Times, serif; color: #29644a; font-weight: bold; ">
+                        Feels like fall
+                    </p>
+        
+                    <p style="padding: 0px; margin:0px; font-size:19px; line-height:23px; font-family: 'Jost', Georgia, 'Times New Roman', Times, serif; color: #000000; font-weight:500 ; ">
+                        Spend the fall with us at Hotel June where we&#8217;re embracing everything we love about the season — unwind by the pool, taste the new autumn menus at Caravan Swim Club, take a ride on the famed bike path along the beach with our complimentary bikes then grab a sweater and spend a cozy evening around our fire pits.
+                    </p>   
+                     
+                    <p style="padding: 17px 0px 0px 0px; margin:0px; font-size:19px; line-height:23px; font-family: 'Jost', Georgia, 'Times New Roman', Times, serif; color: #000000; font-weight:500; ">
+                        Relax and slow down: stay two nights or more and <span style="padding: 0px; margin:0px; color: #e0bb4d; font-weight: bold; ">save up to 15% off</span> our best available rate, <span style="padding: 0px; margin:0px; color: #e0bb4d; font-weight: bold; ">free parking</span> <br> plus receive a <span style="padding: 0px; margin:0px; color: #e0bb4d; font-weight: bold; ">$40 dining credit</span> (per stay). Enjoy <span style="padding: 0px; margin:0px; color: #e0bb4d; font-weight: bold; ">flexible reservations</span>, with free changes or <br> cancellations up to 24 hours prior to arrival.
+
+
+                    </p>
+
+        </td>
+            
+    </tr>
+        
+</table>
+
+        </td>
+
+    </tr>
+                
+    <tr>
+
+        <td style="padding: 0px; margin:0px; line-height: 36px; height: 36px; -mso-line-height-rule:exactly" >
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px;" align="center">
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse;" align="center">
+
+    <tr>
+
+        <td style="padding: 15px 28px; margin:0px; background-color:#e0bb4d; height: 20px; width:100%; max-width: 300px;" align="center">
+
+            <p style="padding: 0px; margin:0px; color: white; font-size: 16px; line-height: 18px; font-family: sans-serif; font-weight: bold; letter-spacing: 1px;">
+
+                CHECK&nbsp;AVAILIABILTY
+
+            </p>
+
+        </td>
+
+    </tr>
+
+</table>
+
+        </td>
+
+    </tr>
+                </table>
+                </div>
+                </div>
+                <!--[if gte mso 9]>
+                </v:textbox>
+                </v:fill>
+                </v:rect>
+                </v:image>
+                <![endif]-->
+                </td>
+                </tr>
+                </table>
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 0px 30px; margin:0px; background-color: #fff7e9;" align="center">
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; background-color: #ffffff; width: 100%; max-width: 580px;" align="center">
+
+    <tr>
+
+        <td style="padding:0px 0px 0px 0px; margin:0px" align="center">
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; background-color: #ffffff; width: 100%; max-width: 580px;" align="center">
+
+    <tr>
+
+        <td style="padding:20px 20px 20px 20px; margin:0px" align="center">
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; background-color: #ffffff; width: 100%; max-width: 540px;" align="center">
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px">
+
+            <p style="padding: 0px; margin:0px; font-size:14px; line-height: 16px; font-family:Arial, Helvetica, sans-serif;color:#000000">
+
+                 <!--[if (gte mso 9) | (IE)]><!-->
+            <img src="https://crmforms.cendyn.com/ProperHotels/HotelJune/Marketing/2020/October/HJ_100520_Fall_Promo/images/HJ_100520_Fall-Promo_03.jpg" alt="People having a drink" title="People having a drink" width="540px" style="padding: 0px; margin:0px; width:540px; display:block; height:auto">
+            <!--<![endif]-->
+
+            <!--[if (gte mso 9) | (IE)]>
+             <img src="" alt="">
+            <![end if]-->
+            </p>
+
+        </td>
+
+    </tr>
+
+</table>
+
+        </td>
+
+    </tr>
+
+</table>
+
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 28px 0px 0px 48px; margin:0px" align="center">
+
+            <p style="padding: 0px; margin:0px; font-size:38px; line-height:52px; font-family: 'Vesper Libre', Georgia, 'Times New Roman', Times, serif; color: #28644a; font-weight: bold; " align="left">
+             
+                &#8220;One of the Hottest New Restaurants in LA Right <br> Now&#8221; &#8212; Eater LA
+            </p>
+
+            <p style="padding: 18px 0px 0px 0px; margin:0px; font-size:19px; line-height:23px; font-family: 'Jost', Georgia, 'Times New Roman', Times, serif; color: #000000; font-weight:500 ; " align="left">
+
+            Eater LA just named Caravan Swim Club one of the hottest <br> new restaurants in LA &#8212; an ideal place to share a meal and <br> hang out amid our ample outdoor space, inspired seafood-<br>centric menu, and relaxed cocktail vibes with over 100 <br> agave offerings.
+            
+
+            </p>
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 10px 0px 0px 0px ; margin:0px;" align="center">
+
+<table role="presentation" style="padding: 0px; margin:0px; border: 0px; border-bottom:2px solid #e1bb4e; border-spacing:0px; border-collapse:collapse; width: 100%; max-width: 120px;" align="center">
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px;" align="center">
+
+            <p style="padding: 0px 0px 0px; margin:0px; font-size:19px; line-height:23px; font-family: 'Jost', Georgia, 'Times New Roman', Times, serif; color: #e1bb4e; font-weight:500 ; text-transform: uppercase; width:110px " align="center"> 
+
+                READ MORE
+            
+            </p>
+
+        </td>
+
+    </tr>
+
+</table>
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 22px 0px 65px 0px; margin:0px;" align="center">
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse;" align="center">
+
+    <tr>
+
+        <td style="padding: 15px 28px; margin:0px; background-color:#e0bb4d; height: 20px; width:100%; max-width: 300px;" align="center">
+
+            <p style="padding: 0px; margin:0px; color: white; font-size: 16px; line-height: 18px; font-family: sans-serif; font-weight: bold; letter-spacing: 1px;">
+
+                MAKE&nbsp;A&nbsp;RESERVATION
+
+            </p>
+
+        </td>
+
+    </tr>
+
+</table>
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px; height:30px; line-height:30px; -mso-line-height-rule:exactly; background-color: #fff7e9;">
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px">
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; background-color: #ffffff; text-align: center; font-size: 0px;" align="center">
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px">
+
+<!--[if (gte mso 9) | (IE)]>
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse;" align="center">
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px; width:50%" valign="top">
+<![end if]-->
+
+<div style="padding: 0px; margin:0px; display:inline-block; vertical-align: top;" align="center">
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; max-width: 290px; vertical-align: top;" align="center">
+
+    <tr>
+
+        <td style="padding: 20px 20px 20px; margin:0px">
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; max-width:250px; vertical-align: top;" align="center">
+
+    <tr>
+
+        <td style="padding: 0px ; margin: 0px;" align="center">
+
+            <p style="padding: 0px; margin:0px; font-size:14px; line-height: 16px; font-family:Arial, Helvetica, sans-serif;color:#000000">
+
+                <img src="https://crmforms.cendyn.com/ProperHotels/HotelJune/Marketing/2020/October/HJ_100520_Fall_Promo/images/HJ_100520_Fall-Promo_07.jpg" alt="swimming pool" title="swimming pool" width="" style="padding: 0px; margin:0px; width:250px; display:block; height: 330px">
+            </p>
+
+        </td>
+
+    </tr>
+
+</table>
+        
+        </td>
+        
+    </tr>
+    
+</table>
+
+</div>
+
+<!--[if (gte mso 9) | (IE)]>
+
+        </td>
+            
+<![end if]-->
+
+<!--[if (gte mso 9) | (IE)]>
+
+        <td style="padding: 0px; margin:0px; width:50%" valign="top">
+
+<![end if]-->
+
+<div style="padding: 0px; margin:0px; display:inline-block; vertical-align: top;" align="center">
+
+    <table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width: 100%; max-width:290px;" align="center">
+    
+        <tr>
+    
+            <td style="padding: 20px 20px 20px 20px; margin:0px">
+    
+    <table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width: 100%; max-width:250px; " align="center">
+    
+        <tr>
+    
+            <td style="padding: 12px 0px 0px 0px; margin: 0px;" align="center">
+    
+                <p style="padding: 0px; margin:0px; font-size:25px; line-height:33px; font-family: 'Vesper Libre', Georgia, 'Times New Roman', Times, serif; color: #28644a; font-weight: bold; vertical-align: top;" align="left">
+    
+                Make it a <br> Daycation
+                </p>
+
+                <p style="padding: 12px 0px 0px 0px; margin:0px; font-size:17px; line-height:20px; font-family: 'Jost', Georgia, 'Times New Roman', Times, serif; color: #000000; font-weight:400;" align="left">
+
+                    Make June your local home away from home &#8212; daily pool and wellness passes are now <br> available on Resort Pass. Grab a <br> lounge chair for the afternoon or <br> spend all day hanging in our <br> cabanas, attend an outdoor yoga <br> or Pilates class (and dine all day <br> at Caravan Swim Club while <br> you&#8217;re here!)
+
+                </p>
+    
+            </td>
+    
+        </tr>
+
+  <tr>
+
+        <td style="padding: 30px 0px 0px 0px ; margin:0px;" align="left">
+
+<table role="presentation" style="padding: 0px; margin:0px; border: 0px; border-bottom:2px solid #e1bb4e; border-spacing:0px; border-collapse:collapse; width: 100%; max-width: 206px;" align="center">
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px;" align="center">
+
+            <p style="padding: 0px 0px 0px; margin:0px; font-size:19px; line-height:23px; font-family: 'Jost', Georgia, 'Times New Roman', Times, serif; color: #e1bb4e; font-weight:500 ; text-transform: uppercase; width:191px " align="center"> 
+
+                RESERVE A DAY PASS
+            
+            </p>
+
+        </td>
+
+    </tr>
+
+</table>
+
+        </td>
+        
+    </tr>
+    
+    </table>
+            
+            </td>
+            
+        </tr>
+        
+    </table>
+    
+    </div>
+    
+    
+
+
+        </td>
+    </tr>
+</table>
+
+        </td>
+    </tr>
+
+</table>
+
+        </td>
+
+    </tr>
+
+            </table>
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px; height:154px; line-height:154px; -mso-line-height-rule:exactly; background-color: #fff7e9;">
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding:0px; margin:0px; height:15px; line-height:15px; -mso-line-height-rule:exactly; background-color:#ffffff;">
+
+        </td>
+    </tr>
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px; background-color: #ffffff;" align="center">
+  
+            <table role="presentation" style="padding: 0px; margin:0px; border:0px; border-bottom: 1px solid #c7b19c; border-spacing:0px; border-collapse:collapse; background-color: #ffffff; text-align: center; font-size: 0px; width:100%; max-width:640px" align="center">
+
+                <tr>
+            
+                    <td style="padding: 0px; margin:0px" align="center">
+            
+            <!--[if (gte mso 9) | (IE)]>
+            
+            <table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse;" align="center">
+            
+                <tr>
+            
+                    <td style="padding: 0px; margin:0px; width:50%" valign="top">
+            <![end if]-->
+            
+            <div style="padding: 0px; margin:0px; display:inline-block; vertical-align: middle;" align="center">
+            
+            <table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width: 100%; max-width: 500px;" align="center">
+            
+                <tr>
+            
+                    <td style="padding: 20px 150px 20px 0px; margin:0px" align="center">
+            
+            <table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; max-width:350px" align="center">
+            
+                <tr>
+            
+                    <td style="padding: 0px 1px 0px 1px; margin: 0px;" align="left">
+            
+                        <p style="padding: 0px; margin:0px; font-size:14px; line-height: 16px; font-family:Arial, Helvetica, sans-serif;color:#000000">
+            
+                            <img src="https://egallery.cendyn.com/egallery/upload/proper_hotels/shared_company/footer_logo.jpg" alt="Hotel June logo" title="Hotel June logo" width="48px" style="width: 48px; max-width:100%; display:block; height:auto">
+                        </p>
+            
+                    </td>
+
+                    <td style="padding:0px 5px 0px 15px; margin:0px; width: 280px" align="left">
+
+                        <p style="padding: 3px 0px 0px 0px; margin:0px; font-size:15px; line-height:17px; font-family: 'Jost', Georgia, 'Times New Roman', Times, serif; color: #000000; font-weight:400;" align="left">
+
+                         Hotel June
+                        </p>
+
+                        <p style="padding: 3px 0px 0px 0px; margin:0px; font-size:15px; line-height:17px; font-family: 'Jost', Georgia, 'Times New Roman', Times, serif; color: #000000; font-weight:400;" align="left">
+
+                          8639 Lincoln Blvd, Los Angeles, CA 90045
+                        </p>
+
+                        <p style="padding: 3px 0px 0px 0px; margin:0px; font-size:15px; line-height:17px; font-family: 'Jost', Georgia, 'Times New Roman', Times, serif; color: #000000; font-weight:400;" align="left">
+
+                          TheHotelJune.com
+                        </p>
+                    </td>
+            
+                </tr>
+            
+            </table>
+                    
+                    </td>
+                    
+                </tr>
+                
+            </table>
+            
+            </div>
+            
+            <!--[if (gte mso 9) | (IE)]>
+            
+                    </td>
+                        
+            <![end if]-->
+            
+            <!--[if (gte mso 9) | (IE)]>
+            
+                    <td style="padding: 0px; margin:0px; width:50%" valign="top">
+            
+            <![end if]-->
+            
+            <div style="padding: 0px; margin:0px; display:inline-block; vertical-align: middle;" align="center">
+            
+                <table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; max-width:140px" align="center">
+                
+                    <tr>
+                
+                        <td style="padding: 20px 20px 20px 20px; margin:0px">
+                
+                <table role="presentation" style="padding: 0px; margin:0px; border: 1px solid #000000; border-spacing:0px; border-collapse:collapse; width:100%; max-width:100px" align="center">
+
+                    <tr>
+            
+                        <td style="padding: 0px; margin:0px;" align="center">
+            
+            <table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse;" align="center">
+            
+                <tr>
+            
+                    <td style="padding: 5px; margin:0px; border-right: 1px solid #000000 ">
+            
+                        <p style="padding: 0px; margin:0px; font-size:14px; line-height: 16px; font-family:Arial, Helvetica, sans-serif;color:#000000">
+                            <img src="https://egallery.cendyn.com/egallery/upload/proper_hotels/shared_company/santamonica/insta.png" alt="" width="30px" style="width: 20px; max-width:100%; display:block; height:auto">
+                        </p>
+            
+                    </td>
+
+                    <td style="padding: 5px; margin:0px; border-right: 1px solid #000000 ">
+                         
+                        <p style="padding: 0px; margin:0px; font-size:14px; line-height: 16px; font-family:Arial, Helvetica, sans-serif;color:#000000">
+                               <img src="https://egallery.cendyn.com/egallery/upload/proper_hotels/shared_company/santamonica/fb.png" alt="" style="width: 20px; max-width:100%; display:block; height:auto">
+                        </p>
+
+                    </td>
+
+                    <td style="padding: 5px; margin:0px" align="center">
+
+                        <p style="padding: 0px; margin:0px; font-size:14px; line-height: 16px; font-family:Arial, Helvetica, sans-serif;color:#000000;">
+                            <img src="https://egallery.cendyn.com/egallery/upload/proper_hotels/shared_company/santamonica/linkedin.png" alt="" style="width: 20px; max-width:100%; display:block; height:auto">
+                        </p>
+
+                    </td>
+            
+                </tr>
+            
+            </table>
+            
+            
+                        </td>
+
+                    </tr>
+                
+                </table>
+                        
+                        </td>
+                        
+                    </tr>
+                    
+                </table>
+                
+                </div>
+                
+                
+            
+            
+                    </td>
+                </tr>
+            </table>
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding:0px; margin:0px; height:29px; line-height:29px; -mso-line-height-rule:exactly; background-color:#ffffff;">
+
+        </td>
+    </tr>
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px" align="center">
+
+<table role="presentation" style="padding: 0px 0px 0px 0px; margin:0px; border:0px; border-top: 1px solid #fff7e9; border-spacing:0px; border-collapse:collapse; background-color: #ffffff; width: 100%; max-width: 640px;" align="center">
+
+    <tr>
+            
+        <td style="padding:15px 0px 0px 0px; margin:0px; width: 100%; max-width: 640px;" align="center" >
+
+            <p style="padding: 0px 0px 0px 0px; margin:0px; font-size:17px; line-height:19px; font-family: 'Jost', Georgia, 'Times New Roman', Times, serif; color: #000000; font-weight:400; font-style: italic ; width: 100%;" align="center">
+            A Proper Hospitality Hotel
+
+          </p>
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px" align="center">
+
+<table role="presentation" style="padding: 0px 0px 0px 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; background-color: #ffffff; text-align: center; font-size: 0px;" align="center">
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px" align="center">
+<!--[if (gte mso 9) | (IE)]>
+            
+            <table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse;" align="center">
+            
+                <tr>
+            
+                    <td style="padding: 0px; margin:0px; width:50%" valign="top">
+            <![end if]-->
+
+<div style="padding: 0px; margin:0px; display:inline-block; vertical-align: middle;" align="center">
+            
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; " align="center">
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px; vertical-align: middle;" align="center">
+
+            <p style="padding: 0px 0px 0px 0px; margin:0px; font-size:17px; line-height:19px; font-family: 'Jost', Georgia, 'Times New Roman', Times, serif; color: #000000; font-weight:400; width: 100%; vertical-align: middle;" align="center">
+                Proper Hotels
+            </p>
+
+           
+
+        </td>
+
+        <td style="padding: 0px; margin:0px; vertical-align: middle;" align="center">
+
+            <p style="padding: 0px 10px 23px 10px; margin:0px; color: #e1bb4e; font-size: 40px; line-height: 6px; vertical-align: middle;" align="center">.</p>
+
+
+        </td>
+
+    </tr>
+
+</table>
+
+</div>
+
+  <!--[if (gte mso 9) | (IE)]>
+            
+                    </td>
+                        
+            <![end if]-->
+            
+            <!--[if (gte mso 9) | (IE)]>
+            
+                    <td style="padding: 0px; margin:0px; width:50%" valign="top">
+            
+            <![end if]-->
+
+<div style="padding: 0px; margin:0px; display:inline-block; vertical-align: middle;" align="center">
+            
+    <table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; " align="center">
+                
+                    <tr>
+                
+                        <td style="padding: 0px; margin:0px" align="center">
+                
+                            <p style="padding: 0px 0px 0px 0px; margin:0px; font-size:17px; line-height:19px; font-family: 'Jost', Georgia, 'Times New Roman', Times, serif; color: #000000; font-weight:400; width: 100%;" align="center">
+                                Hotel June
+                            </p>
+                
+                        </td>
+
+                        
+
+                            <td style="padding: 0px; margin:0px; vertical-align: middle;" align="center">
+
+                                <p style="padding: 0px 10px 23px 10px; margin:0px; color: #e1bb4e; font-size: 40px; line-height: 6px; vertical-align: middle;" align="center">.</p>
+                    
+                    
+                            </td>
+                        
+                
+                    </tr>
+                
+                </table>
+                
+                </div>
+    
+
+
+  <!--[if (gte mso 9) | (IE)]>
+            
+                    </td>
+                        
+            <![end if]-->
+            
+            <!--[if (gte mso 9) | (IE)]>
+            
+                    <td style="padding: 0px; margin:0px; width:50%" valign="top">
+            
+            <![end if]-->
+
+            <div style="padding: 0px; margin:0px; display:inline-block; vertical-align: middle;" align="center">
+            
+                <table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; " align="center">
+                
+                    <tr>
+                
+                        <td style="padding: 0px; margin:0px" align="center">
+                
+                            <p style="padding: 0px 0px 0px 0px; margin:0px; font-size:17px; line-height:19px; font-family: 'Jost', Georgia, 'Times New Roman', Times, serif; color: #000000; font-weight:400; width: 100%;" align="center">
+                                Avalon Hotels
+                            </p>
+                
+                        </td>
+
+                        <td style="padding: 0px; margin:0px; vertical-align: middle;" align="center">
+
+                            <p style="padding: 0px 10px 23px 10px; margin:0px; color: #e1bb4e; font-size: 40px; line-height: 6px; vertical-align: middle;" align="center">.</p>
+                
+                
+                        </td>
+                
+                    </tr>
+                
+                </table>
+                
+                </div>
+
+  <!--[if (gte mso 9) | (IE)]>
+            
+                    </td>
+                        
+            <![end if]-->
+            
+            <!--[if (gte mso 9) | (IE)]>
+            
+                    <td style="padding: 0px; margin:0px; width:50%" valign="top">
+            
+            <![end if]-->
+
+            <div style="padding: 0px; margin:0px; display:inline-block; vertical-align: middle;" align="center">
+            
+                <table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; " align="center">
+                
+                    <tr>
+                
+                        <td style="padding: 0px; margin:0px" align="center">
+                
+                            <p style="padding: 0px 0px 0px 0px; margin:0px; font-size:17px; line-height:19px; font-family: 'Jost', Georgia, 'Times New Roman', Times, serif; color: #000000; font-weight:400; width: 100%;" align="center">
+                                Ingleside Inn
+                            </p>
+                
+                        </td>
+
+                        
+                
+                    </tr>
+                
+                </table>
+                
+                </div>
+
+        </td>
+
+    </tr>
+    
+</table>
+
+        </td>
+
+    </tr>
+
+
+    <tr style="padding: 0px; margin:0px" align="center">
+
+        <td style="padding: 0px; margin:0px" align="center">
+
+                <p style="padding: 15px 0px 15px 0px; margin:0px; font-size:10px; line-height:12px; font-family: sans-serif; color: #000000;" align="center">
+                   Click here to unsubcribe from future emails.
+        
+                </p>
+
+        </td>
+        
+        
+    </tr>
+
+</table>
+
+        </td>
+
+    </tr>
+    
+
+</table>                    
+                </td>
+
+            </tr>
+
+        </table>
+
+
+    </div>
+    
+</body>
+</html>
